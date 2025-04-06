@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 3: Einführung in Links und Bilder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0fdf4;
+            color: #064e3b;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #047857;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #047857;
+            color: white;
+            margin-top: auto;
+        }
+        .footer-right {
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial 3: Einführung in Links und Bilder</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="tutorial_new.html">Tutorial 1</a></li>
+                <li><a href="tutorial2.html">Tutorial 2</a></li>
+                <li><a href="tutorial4.html">Tutorial 4</a></li>
+                <li><a href="tutorial5.html">Tutorial 5</a></li>
+                <li><a href="tutorial6.html">Tutorial 6</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Links und Bilder in HTML</h2>
+        <p>In diesem Tutorial lernst du, wie du Links und Bilder in HTML einfügst.</p>
+
+        <h3>Links:</h3>
+        <p>Mit dem <strong>&lt;a&gt;</strong>-Tag kannst du Links zu anderen Webseiten oder Ressourcen erstellen.</p>
+        <pre>
+            &lt;a href="https://example.com"&gt;Besuche meine Webseite&lt;/a&gt;
+        </pre>
+
+        <h3>Bilder:</h3>
+        <p>Mit dem <strong>&lt;img&gt;</strong>-Tag kannst du Bilder in deine Webseite einfügen.</p>
+        <pre>
+            &lt;img src="bild.jpg" alt="Beschreibung des Bildes"&gt;
+        </pre>
+    </main>
+
+    <footer>
+        <div class="footer-right">
+            <p>LearnWeb</p>
+        </div>
+    </footer>
+</body>
+</html>
