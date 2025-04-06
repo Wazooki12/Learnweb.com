@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 4: Einführung in Formulare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0fdf4;
+            color: #064e3b;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #047857;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #047857;
+            color: white;
+            margin-top: auto;
+        }
+        .footer-right {
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial 4: Einführung in Formulare</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="tutorial_new.html">Tutorial 1</a></li>
+                <li><a href="tutorial2.html">Tutorial 2</a></li>
+                <li><a href="tutorial3.html">Tutorial 3</a></li>
+                <li><a href="tutorial5.html">Tutorial 5</a></li>
+                <li><a href="tutorial6.html">Tutorial 6</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Was sind Formulare?</h2>
+        <p>Formulare ermöglichen es den Benutzern, Daten auf einer Webseite einzugeben und zu übermitteln. Sie sind in HTML mit dem &lt;form&gt;-Tag erstellt.</p>
+
+        <h3>Grundlegendes Beispiel für ein Formular:</h3>
+        <pre>
+            &lt;form action="submit.php" method="post"&gt;
+                &lt;label for="name"&gt;Name:&lt;/label&gt;
+                &lt;input type="text" id="name" name="name"&gt;
+                &lt;input type="submit" value="Absenden"&gt;
+            &lt;/form&gt;
+        </pre>
+
+        <h3>Wichtige Formular-Elemente:</h3>
+        <ul>
+            <li>&lt;input&gt;: Zur Eingabe von Text, Zahlen, oder zum Erstellen von Schaltflächen.</li>
+            <li>&lt;textarea&gt;: Zum Eingeben mehrzeiliger Texte.</li>
+            <li>&lt;select&gt;: Zum Erstellen von Dropdown-Menüs.</li>
+            <li>&lt;button&gt;: Zum Erstellen von Buttons innerhalb eines Formulars.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="footer-right">
+            <p>LearnWeb</p>
+        </div>
+    </footer>
+</body>
+</html>
