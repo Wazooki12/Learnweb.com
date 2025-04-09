@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 5: Einführung in Tabellen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0fdf4;
+            color: #064e3b;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #047857;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #047857;
+            color: white;
+            margin-top: auto;
+        }
+        .footer-right {
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial 5: Einführung in Tabellen</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="tutorial_new.html">Tutorial 1</a></li>
+                <li><a href="tutorial2.html">Tutorial 2</a></li>
+                <li><a href="tutorial3.html">Tutorial 3</a></li>
+                <li><a href="tutorial4.html">Tutorial 4</a></li>
+                <li><a href="tutorial6.html">Tutorial 6</a></li>
+                <li><a href="Visualstudiocode.html">VS Code Installation</a></li> <!-- Link zur Visual Studio Code Installation -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Was sind Tabellen in HTML?</h2>
+        <p>Tabellen werden verwendet, um Daten in einem tabellarischen Format anzuzeigen. Sie werden mit dem <strong>&lt;table&gt;</strong>-Tag erstellt.</p>
+
+        <h3>Grundlegendes Beispiel für eine Tabelle:</h3>
+        <pre>
+            &lt;table&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Name&lt;/th&gt;
+                    &lt;th&gt;Alter&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Max Mustermann&lt;/td&gt;
+                    &lt;td&gt;30&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        </pre>
+
+        <h3>Wichtige Table-Elemente:</h3>
+        <ul>
+            <li><strong>&lt;table&gt;</strong>: Definiert eine Tabelle.</li>
+            <li><strong>&lt;tr&gt;</strong>: Definiert eine Tabellenzeile.</li>
+            <li><strong>&lt;th&gt;</strong>: Definiert eine Tabellenüberschrift.</li>
+            <li><strong>&lt;td&gt;</strong>: Definiert eine Tabellenzelle mit Daten.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="footer-right">
+            <p>LearnWeb</p>
+        </div>
+    </footer>
+</body>
+</html>
