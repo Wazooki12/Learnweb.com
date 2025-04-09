@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 1: Einführung in HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0fdf4;
+            color: #064e3b;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #047857;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #047857;
+            color: white;
+            margin-top: auto;
+        }
+        .footer-right {
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial 1: Einführung in HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="tutorial2.html">Tutorial 2</a></li>
+                <li><a href="tutorial3.html">Tutorial 3</a></li>
+                <li><a href="tutorial4.html">Tutorial 4</a></li>
+                <li><a href="tutorial5.html">Tutorial 5</a></li>
+                <li><a href="tutorial6.html">Tutorial 6</a></li>
+                <li><a href="Visualstudiocode.html">VS Code Installation</a></li> <!-- Hier wird der Link zur Visual Studio Code-Seite eingefügt -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Was ist HTML?</h2>
+        <p>HTML (Hypertext Markup Language) ist die Grundlage jeder Webseite. Sie beschreibt den strukturellen Aufbau der Seite und gibt an, wie der Inhalt angezeigt wird.</p>
+        <h3>Wichtige HTML-Tags:</h3>
+        <ul>
+            <li><strong>&lt;html&gt;</strong>: Das Wurzelelement eines HTML-Dokuments.</li>
+            <li><strong>&lt;head&gt;</strong>: Enthält Metainformationen wie Titel und Verlinkungen zu CSS und JS.</li>
+            <li><strong>&lt;body&gt;</strong>: Der sichtbare Inhalt der Webseite.</li>
+        </ul>
+        <h3>Beispiel:</h3>
+        <pre>
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;Meine erste Webseite&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Willkommen auf meiner Webseite&lt;/h1&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+    </main>
+
+    <footer>
+        <div class="footer-right">
+            <p>LearnWeb</p>
+        </div>
+    </footer>
+</body>
+</html>
